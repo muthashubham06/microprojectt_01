@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>SkillProject | Simple Sign Up</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- SkillProject top bar -->
+  <header>
+    <h1>SkillProject</h1>
+    <p>Quality, skill-based learning — practical courses for every student</p>
+  </header>
+
+  <!-- Simple signup form -->
+  <div class="wrapper">
+    <h2>Sign Up</h2>
+    <form id="signupForm">
+      <!-- Full name -->
+      <div class="field">
+        <label for="name">Full name</label>
+        <input type="text" id="name" placeholder="Your full name" required />
+      </div>
+
+      <!-- Email -->
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="you@example.com" required />
+      </div>
+
+      <!-- Password -->
+      <div class="field">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="At least 8 characters" required />
+        <div class="hint">Password should be at least 8 characters long.</div>
+      </div>
+
+      <!-- Confirm password -->
+      <div class="field">
+        <label for="confirm">Confirm password</label>
+        <input type="password" id="confirm" placeholder="Re-type password" required />
+      </div>
+
+      <!-- Error message area -->
+      <div id="errorMsg" class="error"></div>
+
+      <!-- Submit button -->
+      <button type="submit">Create account</button>
+    </form>
+
+      </div>
+
+  
+
+<script src="script.js"></script>
+</body>
+</html>
